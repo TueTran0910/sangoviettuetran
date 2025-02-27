@@ -1,0 +1,108 @@
+table 
+{
+    width: 100%;
+    margin: auto; /* Căn giữa */
+    border-collapse: collapse; /*Gộp viền*/
+    
+}
+.menu
+{
+    padding: 10px;
+    text-align: center;
+    background-color: #d8d5d5;
+    font-size: 23px;
+
+}
+.menu a 
+{
+    text-decoration: none; /* Bỏ gạch chân */
+    color: black;
+    font-weight: bold;
+    margin-right: 59%;
+   
+}
+.menu img
+{
+    height: 76px;
+    margin-right: 39%;
+}
+.spbanchay
+{
+    width: 100%;
+    margin: auto; /* Căn giữa */
+    background-color: #d8d5d5;
+}
+.spbanchay tr
+{
+    padding: 5px;
+    text-align: center;
+}
+.spbanchay img
+{
+    padding: 3%;
+    height: 390px;
+
+}
+.spmoi
+{
+    width: 100%;
+    margin: auto; /* Căn giữa */
+    background-color: #d8d5d5;
+}
+.spmoi tr
+{
+    padding: 5px;
+    text-align: center;
+}
+.spmoi img
+{
+    padding: 3%;
+    height: 390px;
+}
+
+.footer tr td
+{
+    background-color: #d8d5d5;
+    padding: 19px;
+    margin: auto;
+    border: 3px solid black; 
+}
+.tatcasp
+{
+    width: 100%;
+    margin: auto; /* Căn giữa */
+    background-color: #d8d5d5;
+}
+.tatcasp tr
+{
+    text-align: center;
+}
+.tatcasp img
+{
+    padding: 5%;
+    height: 490px;
+}
+.login-box
+{
+    padding: 17px;
+    font-size: 30px;
+    text-align: center;
+}
+body
+{
+    background: linear-gradient(to right, #007BFF, #FF69B4, purple);
+}
+.register-box
+{
+    padding: 17px;
+    font-size: 30px;
+    text-align: center;
+} 
+button
+{
+    padding: 17px;
+    text-align: center;
+}
+
+
+

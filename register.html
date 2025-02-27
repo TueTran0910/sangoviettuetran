@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+
+        <!-- menu -->
+        <tr class="menu">
+            <td><img src="./img/new_logo_sologanN.png" alt=""></td>
+            <td><a href="index.html">Trang Chủ </a></td>
+            <td><a href="product.html">Sản Phẩm</a></td>
+            <td><a href="register.html">Đăng Kí</a></td>
+            <td><a href="login.html">Đăng Nhập</a></td>
+        </tr>
+    </table>
+    <form action="https://tranvanhung.fitstu.net/download/front-end/test.php" method="post">
+        <div class="register-box">
+            <h1>Register</h1>
+            <br>
+            UserName: <input type="text" placeholder=" Tên tài khoản" required>
+            <br>
+            PassWord: <input type="password" placeholder=" Mật khẩu" required>
+            <br>
+            Mail: <input type="email" name="Mail" id="mail">
+            <br>
+            Sex: 
+                <input type="radio" name="Gioitinh" id="nam" value>
+                <label for="nam">Nam</label>
+                <input type="radio" name="Gioitinh" id="nu" value> 
+                <label for="nu">Nữ</label>
+            <br>
+            Interest: 
+                    <input type="checkbox" name="sothich" id="dulich">
+                    <label for="dulich">Du lịch</label>
+                    <input type="checkbox" name="sothich" id="dabong">
+                    <label for="dabong">Đá bóng</label>
+            <br>
+            Avatar: 
+                    <input type="file" name="anhdaidien" id="avatarinput" accept="img/*">
+            <br>
+            Date: 
+                <input type="date" name="ngaysinh" id="ns">
+            <br>
+            Class: 
+                <select name="lop" id="lopp">
+                    <option value="TH-01">TH01</option>
+                    <option value="TH-02">TH02</option>
+                    <option value="TH-03">TH03</option>
+                    <option value="TH-04">TH04</option>
+                    <option value="TH-05">TH05</option>
+                    <option value="TH-06">TH06</option>
+                    <option value="TH-07">TH07</option>
+                    <option value="TH-08">TH08</option>
+                    <option value="TH-09">TH09</option>
+                    <option value="TH-10">TH10</option>
+                </select>
+            <br>
+            Information: 
+                        <textarea name="thongtin" id="tt"></textarea>
+            <br>
+            <input type="reset" value="Reset">
+            <a href="tranvanhung.fitstu.net/download/front-end/test.php"><input type="submit"></a>
+        </div>
+    </form>
+</body>
+</html>
